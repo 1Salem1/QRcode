@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_qrcode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Hello World!"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="camera"/>
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gallery"/>
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload"/>
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="print"/>
+    <Button
+        android:id="@+id/btn_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pdf"/>
+    <Button
+        android:id="@+id/btn_generate_bmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="generate bmp"/>
+
+</LinearLayout>
